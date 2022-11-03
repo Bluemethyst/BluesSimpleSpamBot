@@ -9,7 +9,8 @@ There are none!
 
 # 💾Installation:
 
-Just download the latest .zip from releases and click SpamBot.exe!
+Just download the latest .zip from releases, unzip, click SpamBot.exe and when it pops up with Windows Smartscreen click more info and run anyway. 
+Don't be alarmed, it only says that as the .exe was not published by a verified publisher.
 
 # 🗨Support:
 If you are having any issues contact me on Discord, Bluemethyst#9923
