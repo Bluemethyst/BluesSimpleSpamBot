@@ -11,5 +11,5 @@ There are none!
 
 Just download the latest .zip from releases and click SpamBot.exe!
 
-# Support:
+# 🗨Support:
 If you are having any issues contact me on Discord, Bluemethyst#9923
