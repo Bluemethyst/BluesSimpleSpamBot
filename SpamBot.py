@@ -23,6 +23,7 @@ print(Fore.RED + "You have been warned".upper())
 spam = input(Fore.CYAN + "Enter the string you want to spam: " + Fore.WHITE)
 length_input = input(Fore.CYAN + "Enter the amount of times you want the message to be spammed: " + Fore.WHITE)
 delay_input = input(Fore.CYAN + "Enter the delay between sending each message in seconds: " + Fore.WHITE)
+enter = input(Fore.CYAN + "Would you like it to press enter at the end of each message? Y/N " + Fore.WHITE)
 
 length = int(length_input)
 delay = int(delay_input)
@@ -33,9 +34,12 @@ time.sleep(1)
 
 def message():
     keyboard.type(spam)
-    keyboard.press(Key.enter)
-    keyboard.release(Key.enter)
-    time.sleep(delay)
+    if enter == "y":
+        keyboard.press(Key.enter)
+        keyboard.release(Key.enter)
+        time.sleep(delay)
+    else:
+        time.sleep(delay)
 
 print(Fore.RED + "You have 3 seconds to navigate to the desired spam location".upper())
 
